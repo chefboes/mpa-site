@@ -1,0 +1,113 @@
+body {
+  box-sizing:border-box;
+}
+
+/* variables------------------------------------------*/
+:root {
+  --overlay: rgba(7, 20, 65, 0.35);
+  --header: rgba(130, 173, 203, 1);
+  --hblau: #82ADCB;
+  --white: #ffffff;
+  --beige: #A47866;
+  --hbeige:rgb(194, 168, 155);
+  --grey: #5A5D69;
+  font-size: 16px;
+}
+
+#slider {
+  width: 100%;
+  max-width: 68.75rem;
+  max-height: 50vh;
+  overflow: hidden;
+  margin: 0 auto;
+  left: 0;
+}
+
+.slider-wrapper {
+  width:100%;
+  background: var(--grey);
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  animation: slider 18s infinite;
+}
+
+#slider figure img {
+  width: 20%;
+  float: left;
+}
+@keyframes slider {
+0% {
+  left: 0;
+}
+20% {
+  left: 0;
+  opacity: 1;
+}
+22% {
+  opacity: .4;
+}
+25% {
+  left: -100%;
+}
+27% {
+  opacity: 1;
+}
+45% {
+  left: -100%;
+  opacity: 1;
+}
+47% {
+  opacity: .4;
+}
+50% {
+  left: -200%;
+}
+52% {
+  opacity: 1;
+}
+70% {
+  left: -200%;
+  opacity: 1;
+}
+72% {
+  opacity: .4;
+}
+75% {
+  left: -300%;
+}
+77% {
+  opacity: 1;
+}
+95% {
+  left: -300%;
+  opacity: 1;
+}
+97% {
+  opacity: .4;
+}
+100% {
+  left: -400%;
+  opacity: 1;
+}
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .7}
+  to {opacity: 1}
+}

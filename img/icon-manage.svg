@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 307 324" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-1094.7,-784.451)">
+        <g transform="matrix(1,0,0,1,875.215,645.977)">
+            <g transform="matrix(1,0,0,1,119.938,-20.1194)">
+                <g transform="matrix(1.05947,0,0,1.05947,-9.64854,-28.5003)">
+                    <g transform="matrix(0.640367,0,0,0.632065,77.7548,137.457)">
+                        <g transform="matrix(0.631427,0,0,1,-526.91,-657.932)">
+                            <ellipse cx="1255.4" cy="961.055" rx="73.858" ry="176.876" style="fill:none;stroke:rgb(138,140,149);stroke-width:21.67px;"/>
+                        </g>
+                        <g transform="matrix(0.315714,-0.546832,0.866025,0.5,-962.862,509.087)">
+                            <ellipse cx="1255.4" cy="961.055" rx="73.858" ry="176.876" style="fill:none;stroke:rgb(138,140,149);stroke-width:21.47px;"/>
+                        </g>
+                        <g transform="matrix(-0.315714,-0.546832,0.866025,-0.5,-170.17,1470.14)">
+                            <ellipse cx="1255.4" cy="961.055" rx="73.858" ry="176.876" style="fill:none;stroke:rgb(138,140,149);stroke-width:21.69px;"/>
+                        </g>
+                    </g>
+                    <g transform="matrix(0.302187,0,0,0.298909,-65.2149,83.9797)">
+                        <circle cx="1128.33" cy="981.27" r="40.069" style="fill:white;"/>
+                    </g>
+                    <g transform="matrix(0.298909,0,0,0.298909,-116.866,-12.0293)">
+                        <circle cx="1128.33" cy="981.27" r="40.069" style="fill:white;"/>
+                    </g>
+                    <g transform="matrix(1.16525,-0.665459,0.672756,1.15261,-277.283,104.954)">
+                        <g>
+                            <g transform="matrix(1.06009,0,0,0.207593,-943.06,59.4927)">
+                                <path d="M1129.09,903.244L1129.09,1071.84" style="fill:none;stroke:rgb(145,187,203);stroke-width:3.27px;stroke-dasharray:3.27,9.82,0,0;"/>
+                            </g>
+                            <g transform="matrix(1.06009,0,0,0.207593,-943.06,212.493)">
+                                <path d="M1129.09,903.244L1129.09,1071.84" style="fill:none;stroke:rgb(145,187,203);stroke-width:3.27px;stroke-dasharray:3.27,9.82,0,0;"/>
+                            </g>
+                        </g>
+                        <g transform="matrix(0.5,-0.866025,0.866025,0.5,-168.378,390.361)">
+                            <g transform="matrix(1.06009,0,0,0.207593,-943.06,59.4927)">
+                                <path d="M1129.09,903.244L1129.09,1071.84" style="fill:none;stroke:rgb(145,187,203);stroke-width:3.27px;stroke-dasharray:3.27,9.82,0,0;"/>
+                            </g>
+                            <g transform="matrix(1.06009,0,0,0.207593,-943.06,212.493)">
+                                <path d="M1129.09,903.244L1129.09,1071.84" style="fill:none;stroke:rgb(145,187,203);stroke-width:3.27px;stroke-dasharray:3.27,9.82,0,0;"/>
+                            </g>
+                        </g>
+                        <g transform="matrix(-0.5,-0.866025,0.866025,-0.5,85.4963,731.361)">
+                            <g transform="matrix(1.06009,0,0,0.207593,-943.06,59.4927)">
+                                <path d="M1129.09,903.244L1129.09,1071.84" style="fill:none;stroke:rgb(169,127,110);stroke-width:3.27px;stroke-dasharray:3.27,9.82,0,0;"/>
+                            </g>
+                            <g transform="matrix(1.06009,0,0,0.207593,-943.06,212.493)">
+                                <path d="M1129.09,903.244L1129.09,1071.84" style="fill:none;stroke:rgb(169,127,110);stroke-width:3.27px;stroke-dasharray:3.27,9.82,0,0;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <g transform="matrix(1.34551,0,0,1.33092,-93.6376,-124.793)">
+                        <g>
+                            <g transform="matrix(1.07181,0,0,1.07181,-953.334,-712.71)">
+                                <circle cx="1082.47" cy="907.156" r="8.397" style="fill:white;stroke:rgb(105,110,126);stroke-width:7.88px;"/>
+                            </g>
+                            <g transform="matrix(1.07181,0,0,1.07181,-1000.33,-631.304)">
+                                <circle cx="1082.47" cy="907.156" r="8.397" style="fill:white;stroke:rgb(138,188,204);stroke-width:7.88px;"/>
+                            </g>
+                            <g transform="matrix(1.07181,0,0,1.07181,-952.813,-549.897)">
+                                <circle cx="1082.47" cy="907.156" r="8.397" style="fill:white;stroke:rgb(169,127,110);stroke-width:7.88px;"/>
+                            </g>
+                            <g transform="matrix(1.06019,0,0,1.07181,-847.846,-549.897)">
+                                <circle cx="1082.47" cy="907.156" r="8.397" style="fill:white;stroke:rgb(105,110,126);stroke-width:7.88px;"/>
+                            </g>
+                            <g transform="matrix(1.07181,0,0,1.07181,-812.334,-631.304)">
+                                <circle cx="1082.47" cy="907.156" r="8.397" style="fill:white;stroke:rgb(138,188,204);stroke-width:7.88px;"/>
+                            </g>
+                            <g transform="matrix(1.01227,0,0,1.01227,-794.878,-658.693)">
+                                <circle cx="1082.47" cy="907.156" r="8.397" style="fill:white;stroke:rgb(169,127,110);stroke-width:8.35px;"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g transform="matrix(1.31584e-16,2.14893,-2.15493,1.31951e-16,2010.3,-657.501)">
+                    <g>
+                        <path d="M380,744.457L380,886.457" style="fill:none;stroke:rgb(90,93,105);stroke-width:0.46px;"/>
+                        <g transform="matrix(1,0,0,1,149.866,0)">
+                            <path d="M380,744.457L380,886.457" style="fill:none;stroke:rgb(90,93,105);stroke-width:0.46px;"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

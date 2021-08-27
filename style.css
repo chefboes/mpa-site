@@ -1,0 +1,754 @@
+/* Fonts Import------------------------*/
+
+@font-face {
+  font-family: 'TT Norms Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('TT Norms Pro Regular'), url('fonts/norms/TT Norms Pro Regular.woff') format('woff');
+  font-display: swap;
+  }
+  @font-face {
+    font-family: 'TT Norms Pro Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TT Norms Pro Medium'), url('fonts/norms/TT Norms Pro Medium.woff') format('woff');
+    font-display: swap;
+    }
+      @font-face {
+      font-family: 'TT Norms Pro Bold';
+      font-style: normal;
+      font-weight: normal;
+      src: local('TT Norms Pro Bold'), url('fonts/norms/TT Norms Pro Bold.woff') format('woff');
+      font-display: swap;
+      }
+
+
+/* allgemein------------------------*/
+
+* {
+  font-family: 'TT Norms Pro Regular';
+}
+
+html {
+  min-height: 100%;
+  scroll-behavior: smooth; 
+}
+
+body {
+  min-width: 320px;
+  max-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  font-family: 'TT Norms Pro Regular', sans-serif;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+/* variables------------------------------------------*/
+:root {
+    --overlay: rgba(7, 20, 65, 0.35);
+    --header: rgba(130, 173, 203, 1);
+    --hblau: #82ADCB;
+    --white: #ffffff;
+    --beige: #A47866;
+    --hbeige:rgb(194, 168, 155);
+    --grey: #5A5D69;
+    font-size: 16px;
+  }
+/* colors in classes------------------------------------------*/
+.beige {
+  color: var(--beige);
+}
+.white {
+  color: var(--white);
+}
+.grey {
+  color: var(--grey);
+}
+.hblau {
+  color: var(--hblau);
+}
+
+/* Typo und Eigenschaften Textbausteine ---------------------------------------------*/
+
+h1 {
+  font-size: clamp(1.3rem, 3.6vw, 3.5rem);
+  font-weight:200;
+  margin: 1em 1em 1em 1.5em;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-family: 'TT Norms Pro Regular';
+  font-size: clamp(1.4rem, 4vw, 1.6rem);
+  font-weight:700;
+  letter-spacing: .03em;
+}
+h3, h4 {
+  font-weight:600;
+  letter-spacing: .02em;
+  line-height: 1.4em;
+  margin-bottom: 0;
+}
+h3 {
+  font-size: 1.1rem;
+}
+
+h4 {
+  font-family: 'TT Norms Pro Regular';
+  font-size: 1rem;
+}
+.flexchild-50 h3 {
+  max-width: 380px;
+  display:inline-block;
+}
+.flexchild-50 ul{
+  line-height: 1.5em;
+  text-align: left;
+  padding-left: 1.5em;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.6em;
+  letter-spacing: .01em;
+  margin-top:0;
+  margin-bottom:.5rem;
+}
+
+ /* The Modal (background) */
+ .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  box-sizing: border-box;
+  background-color: #fefefe;
+  margin: 12% auto; /* 15% from the top and centered */
+  width: min(100%,68.75rem);
+}
+.modal-bu {
+  font-family: 'TT Norms Pro Regular';
+  margin-top: 1rem;
+}
+.modal-bu p + p {
+    margin-top: 1rem;
+}
+.modal-bu li {
+  font-size: .9rem;
+  margin-bottom:.2rem;
+}
+
+/* The Close Button */
+.close, .closeTwo, .closeThree, .closeFour {
+  color: #aaa;
+  float: right;
+  margin-right: 1rem;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .closeTwo:hover, .closeThree:hover,
+.close:focus, .closeTwo:focus, .closeThree:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+/* Eigenschaften ----*/
+.center {
+  text-align: center;
+}
+.bold {
+  font-weight:700;
+}
+.left {
+  text-align: left;
+}
+.--kleingedruckt {
+  margin-top: 2rem;
+}
+.--kleingedruckt:last-child {
+  margin-bottom: 2rem;
+}
+.--kleingedruckt p, .--kleingedruckt h4 {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  letter-spacing: 0;
+}
+.--kleingedruckt, p:last-child {
+  break-after: column;
+}
+.--kleingedruckt h3 {
+  font-size: 1.2rem;
+  font-family: 'TT Norms Pro Medium';
+  margin-bottom: .5rem;
+}
+.--kleingedruckt h4 {
+  font-family: 'TT Norms Pro Medium';
+  color: var(--grey);
+  margin:0 0 .4rem 0;
+}
+.--kleingedruckt p a {
+  font-size: 1rem;
+  color: var(--beige);
+}
+.--kleingedruckt .--avoid {
+  break-inside: avoid;
+}
+.unsichtbar {
+  visibility:hidden;
+}
+.--no-height {
+  min-height: 0;
+}
+.flexchild a, .flexchild-50 a {
+  text-decoration: none;
+  color: var(--grey);
+  cursor: pointer;
+  font-size: .8rem;
+  margin: 0;
+}
+.--kachel a {
+  color: var(--hblau);
+}
+.--kleingedruckt .hinweis, .hinweis h4 {
+  font-style: italic;
+  color: var(--beige);
+}
+
+/* Eigenschaften Footer-Elemente----*/
+
+#footer p {
+  font-size: .9rem;
+}
+
+#footer .--foot a p {
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--grey);
+  cursor: pointer;
+  font-size: .9rem;
+  margin: .5em 0 1em 0;
+}
+.section-items-start a {
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--grey);
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin: .5em 0 1em 0;
+}
+#footer .--foot a:nth-child(5) p, #footer .--foot a:nth-child(6) p {
+  color:var(--beige);
+}
+#footer .--foot a:hover p {
+  color: var(--white);
+  transform: scale(1.01);
+}
+#footer .--foot a:nth-child(5):hover p, #footer .--foot a:nth-child(6):hover p {
+  transform: scale(1);
+}
+
+/*----weiter Eigenschaften----*/
+a p, .accordion p {
+  font-size: 1.1em;
+  margin: .9em 0 .9em 0;
+  transition: transform .2s;
+}
+a:hover p, a:active p, .section-items-start p a:hover, .section-items-start p a:active {
+  color: var(--hblau);
+  transform: scale(1.01);
+}
+.--kachel a:hover p, .--kachel a:active p {
+  color: var(--white);
+}
+.bildlink {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.bildlink:hover {
+  opacity: .8;
+  transform: scale(1.05);
+}
+.current p{
+  color: white;
+}
+
+  /* Container und Weiten---------------------------------------------*/
+.container-11 {
+    position: relative;
+    margin: 0 auto;
+    width: min(85%,68.75rem); 
+  }
+.container-6 {
+    margin: 0 auto;
+    width: min(85%,45rem);
+  }
+  .container-3 {
+    margin: 0 auto;
+    max-width: min(85%,30rem);
+  }
+
+ /* Teamseite --------------------*/ 
+  .modal-inhalte {
+    text-align: left;
+    padding: 5% 15% 5% 10%;
+  }
+
+ .profil-wrapper {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+ .profil img {
+  width: 200px;
+  height: auto;
+}
+.profil .modal-img {
+      width: 150px;
+      height: auto;
+    }
+.bigger {
+  font-size: 2.2em;
+  cursor: pointer;
+}
+
+  @media (min-width: 540px) {
+    .modal-inhalte {
+      padding: 5% 5% 5% 5%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+  .modal-img {
+    margin-right: 1em;
+  }
+  .modal-inhalte:last-child {
+    padding: 1% 20% 5% 10%;
+  }
+  .modal-bu { 
+    flex-basis: max(400px,70%);
+    margin-top: 0;
+  }
+  .modal-bu li, .flexchild-50 li {
+    font-size: 1rem;
+  }
+  
+}
+
+  /* Eigenschaften Sections --------------------*/
+.section-items {
+  border-top: 1px dotted var(--beige);
+  text-align: center;
+  min-height: 350px;
+  padding: 2.5rem 0 1.5rem 0;
+}
+.section-items-start {
+  text-align: center;
+  padding: 2.5rem 0 1.5rem 0;
+}
+.section-items-line {
+  border-top: 1px dotted var(--beige);
+  padding: 2.5rem 0 1.5rem 0;
+}
+#footer {
+  background: var(--hbeige);
+}
+
+
+/* targeting --------------------*/
+
+:target:before {
+	content: "";
+	display: block;
+	height: 4.5rem; /* same as your fixed header height*/  
+	margin: -4.5rem 0 0 0; /* negative fixed header height*/
+} 
+
+/* Intro Sections --------------------*/
+.site-intro {
+  margin: 3.5rem 0;
+}
+.site-intro span p {
+  font-size: clamp(.9em,1.6vw, 1.2em);
+  line-height: 1.9em;
+  margin: 0 0 1rem 0;
+  letter-spacing: .02em;
+}
+.--minor span p {
+  font-size: clamp(.9rem,1.6vw, 1.2rem);
+  line-height: 1.9em;
+}
+.--minor span .--textlink{
+  font-size: clamp(.9rem,1.6vw, 1.2rem);
+  text-decoration: none;
+  color: var(--beige);
+  transition: transform .3s;
+}
+
+
+  /* Eigenschaften für Flex, Columns usw ----------------------------*/
+  .--flexy {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  .--flexy-2, .--flexy-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .--flexy-3 {
+    flex-direction: column-reverse;
+  }
+
+/* Min Width von 50em --------------------*/ 
+  @media (min-width: 50em) {
+    .--flexy-2, .--flexy-3 {
+      flex-direction: row;
+      align-items: center;
+    }
+    .--flexy-2 > * + *, .--flexy-3 > * + * {
+      margin-left: 3em;
+    }
+  }
+  .--centy {
+    align-items: center;
+    justify-content: center;
+  }
+  .--centy2 {
+    justify-content: center;
+  }
+  .--leistungen {
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 2rem 2rem;
+    padding: 2rem 0;
+  }
+  .teambild {
+    padding-right: 1rem;
+  }
+.flexchild {
+    padding: 1em .8em;
+    margin-bottom: .5rem;
+    flex-basis: min(32%, 310px);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.--kachel {
+  background: linear-gradient(var(--hblau),rgba(7, 20, 65, 0.7));
+  border-radius: 4%;
+  padding: 1.5rem ;
+  transition: transform .3s;
+  flex-basis: 280px;
+  box-shadow: 2px 2px 5px#aaa;
+  cursor:pointer;
+  text-align: center;
+}
+.--kachel:hover {
+  transform: scale(1.05);
+  background-color: rgba(7, 20, 65, 0.7);
+}
+.--kachel h3 {
+  color: #fff; 
+}
+.flexchild-50 {
+  flex-basis: 100%;
+  padding: 0;
+  text-align: center;
+}
+.flexchild-50 li {
+  font-size: .9rem;
+}
+.--lefty {
+  text-align: left;
+}
+.icons img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 0rem;
+}
+.--team {
+    flex-basis: max(47%, 450px);
+    display: inline;
+    margin: 1rem 0 0 1rem;
+    padding: 0;
+}
+
+.--foot {
+  flex-basis: 65%;
+  display: inline;
+  padding: 0 0 .5rem 0;
+  text-align: left;
+}
+.--foot:nth-child(2) {
+  flex-basis: 25%;
+  display: inline;
+  border-left: 1px solid var(--white);
+  padding-left: 1em;
+}
+@media screen and (max-width: 855px) {
+  .--foot {
+    text-align: center;
+  }
+  .--foot:nth-child(2) {
+    border-left: none;
+  }
+}
+
+.--team img {
+  width: 100%; 
+  height: auto;
+    margin-bottom: 0;
+    display: block;
+}
+
+.columns {
+    columns: 2 260px;
+    column-gap: 3em;
+    column-rule: 1px dotted black;
+}
+.columns p {
+  margin:0 0 1rem 0;
+}
+.columns span p {
+  display: inline-block;
+}
+.--textlink {
+  text-decoration: none;
+  color: var(--beige);
+  transition: transform .3s;
+}
+.--textlink:hover, .--team .--textlink:hover, .--minor span .--textlink:hover  {
+  color: var(--hblau);
+}
+.--team .--textlink {
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--beige);
+  transition: transform .3s;
+}
+
+.--columns3 {
+  columns: 2 290px;
+}
+.--columns3 h3 {
+  column-span: all;
+}
+
+
+/* Banner und Dummy-------------------------------------------*/
+.banner {
+    width: 100%;
+    height: clamp(40vw, 78vh, 70vw);
+    background-color: dimgray;
+    display: inline-block;
+    position: relative;
+    background-image: 
+    linear-gradient(var(--overlay),var(--overlay)),
+    url(img/hero_4022_sw_md.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (min-width: 1600px) {
+  .banner {
+    background-image: 
+    linear-gradient(var(--overlay),var(--overlay)),
+    url(img/hero_4022_sw.jpg);
+  }
+
+}
+
+.dummy {
+    width:100%;
+    height: clamp(40vw, 78vh, 70vw);
+    display: block;
+    background-image: 
+    url(img/swash-xl.svg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: 135% 120%;
+    opacity: 0.3; 
+}
+@media screen and (max-width: 600px) {
+  .dummy {
+    background-size: 90%;
+    background-position: 190% 120%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .dummy {
+    background-size: 65%;
+    background-position: 115% 120%;
+  }
+}
+
+/* Claim------------------------*/
+.claim {
+    position: absolute;
+    top: min(60%,20vw);
+    left: clamp(2rem, 15%, 5rem);
+  }
+  .claim  h2 {
+    font-family: 'TT Norms Pro Medium';
+    font-size: clamp(1rem, 2.4vw, 2.3rem);
+    font-weight:100;
+    line-height: 1.3em;
+  }
+
+/* Text Slider Container---------------------------------------------*/
+.msg-container {
+    color: #fff;
+    width: clamp(450px,50vw,900px);
+    position: absolute;
+    bottom: 3%;
+    right: 5%;
+    overflow: hidden;
+    min-height:60%;
+    /*--background: rgba(0, 0, 0, 0.2);--*/
+}
+
+#slides {
+    position: absolute;
+    left: 0;
+    bottom: 0;  
+    width: 1000%;
+    animation: slide 14s ease-in-out infinite;
+    }
+
+.column-slides {
+  position: static;
+  color: #fff;
+  width: 25%;
+  display:inline-block;
+  padding-right:15.5%;
+  box-sizing: border-box; 
+}
+
+/* Slider Animation neu------------------------*/
+
+@keyframes slide {
+  0% {left: 0}
+  15% {left: 0}
+  33.3% {left: -250%}
+  48.3% {left: -250%}
+  66.6% {left: -500%}
+  81.6% {left: -500%}
+  100% {left: -750%}
+}
+
+/* Phone------------------------*/ 
+@media screen and (max-width: 650px) {
+
+  .section-items {
+    padding: 1rem 0 1.5rem 0;
+    text-align: left;
+  }
+  .section-items-start {
+    padding: 1rem 0 .3rem 0;
+  }
+  
+  .banner {
+    background-image: 
+    linear-gradient(var(--overlay),var(--overlay)),
+    url(img/hero_4022_sw_bg.jpg);
+    background-position: top;
+  }
+  .site-intro {
+    margin: 1rem 0;
+  }
+  .claim {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+  }
+
+    .msg-container {
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      min-height: 60%;
+  } 
+    .banner {
+        height: 120vw;}
+    .dummy {
+        height: 120vw;
+    }
+   
+    p {
+      font-size: .9rem;}
+    
+    .panel {
+        padding: 0 1.3rem;
+    }
+}
+
+/* Das Akkordeon -----------------------------*/
+.accordion {
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--grey);
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    
+    transition: 0.4s;
+    box-sizing: border-box;
+  }
+  .active, .accordion:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+  }
+  .accordion:after {
+    content: '\002B';
+    color: var(--beige);
+    font-size: 44px;
+    font-weight: 200;
+    display: block;
+    margin: 0 0 .4rem 0;
+    transition: 0.5s;
+  }
+  .accordion:hover:after {
+    color: var(--hblau);
+  }
+  .active:after {
+    content: "\2212";
+  }
+  .panel {
+    padding: 0 2rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .panel p {
+    text-align: justify;
+  }
+  @media screen and (max-width: 698px) {
+    h1 {
+  line-height: 1.3em;
+    }
+    .banner {
+      height: 90vw;}
+  .dummy {
+      height: 90vw;
+  }
+  .accordion:after {
+    font-size: 34px;
+  }
+  }
+

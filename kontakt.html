@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=Text-Slider only, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/v4-shims.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Impressum| Medizinphysiklische Allianz</title>
+</head>
+<body>
+    <div class="profil-wrapper"><!---Flex vertical--------------->
+    <!---Header------------------------------------------------------>  
+    <header class="site-header">
+        <div class="logobox">
+          <a href="index.html">
+            <img class="logo" src="img/logo-mpa-590px.svg" alt="Medizinphysikalische Allianz"></a>
+        </div>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram" style="font-size:20px"></i></a></li>
+            <li><a href="https://de.linkedin.com/" target="blank"><i class="fa fa-linkedin" style="font-size:16px"></i></a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="leistungen.html">Leistungen</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a class="current" href="kontakt.html">Kontakt</a></li>
+        </ul>     
+    </header>
+
+ 
+<!---Kontakt-Inhalt --------------------------------------------------> 
+
+<div class="container-3 section-items-start">
+    <div class="--lefty">
+        <h2 class="beige">Kontakt</h2> 
+        <div class="section-items-line --lefty"> 
+    <h3><span class="bold grey zab">Medizinphysikalische Allianz GmbH</span></h3><br>
+        <p>Hindenburgstraße&nbsp;49, 6.&nbsp;OG&nbsp;| 22297&nbsp;Hamburg<br>
+        <span class="bold grey zab"><a href="tel:+040325552100">Telefon&nbsp;040&nbsp;325552-100</a></span><br>
+        <span class="bold grey zab "><a href="mailto:info@mp-allianz.de">info@mp-allianz.de</a></span><br> 
+        Fax:&nbsp;040&nbsp;325552-222    
+        </p><br>
+
+            <!---Kretschmer -------------------------------------------------->         
+                <p>
+                    <span class="bold grey zab">Dr. rer. medic. Matthias Kretschmer</span><br>
+                    <a href="tel:+40325552590">Telefon +49(40) 325552-590</a><br>
+                    <a href="mailto:kretschmer@mp-allianz.de">kretschmer@mp-allianz.de</a>
+                </p><br>
+            
+            <!---Heyden -------------------------------------------------->
+                <p>
+                    <span class="bold grey zab">Dipl.-Ing. Sebastian Heyden</span><br>
+                    <a href="tel:+40325552-592">Telefon +49(40) 325552-592</a><br>
+                    <a href="mailto:heyden@mp-allianz.de">heyden@mp-allianz.de</a>
+                </p>               
+</div>
+</div>
+</div>
+
+    <!--Footer--------------------------------------------------------> 
+    <section id="footer">
+        <div class="container-11 section-items-start">
+
+            <div class="--flexy --leistungen --centy">
+                <div class="flexchild --foot">
+                    <p>Medizinphysikalische Allianz GmbH <br> Hindenburgstraße&nbsp;49, 6.&nbsp;OG&nbsp;| 22297&nbsp;Hamburg<br>
+                       Tel.:&nbsp;040&nbsp;325552-100&nbsp;| Fax:&nbsp;040&nbsp;325552-222<br>
+                       Geschäftsführer: Sebastian&nbsp;Heyden, Vera&nbsp;Krüger, Dr.&nbsp;Matthias&nbsp;Kretschmer</p>
+                </div>
+                <div class="flexchild --foot">
+                    
+                        <a href="mailto:info@mp-allianz.de"><p>info@mp-allianz.de</p></a>
+                        <a href="impressum.html"><p>Impressum</p></a>
+                        <a href="datenschutz.html"><p>Datenschutzerklärung</p></a>
+                        <a href="https://www.radiologische-allianz.de/" target="_blank"><p>Radiologische Allianz Hamburg</p></a>
+                        <a href="https://www.instagram.com/" target="blank"><p><i class="fa fa-instagram" style="font-size:16px"></i></p></a>
+                        <a href="https://de.linkedin.com/" target="_blank"><p><i class="fa fa-linkedin" style="font-size:14px"></i></p></a>
+                    
+                </div>
+            </div>       
+        </div>
+    </section>
+</div>
+
+           <!------------------------------ Skript Anker Chrome-------------------------------->
+   <script>
+    jQuery(document).ready(function () {
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (window.location.hash && isChrome) {
+            setTimeout(function () {
+                var hash = window.location.hash;
+                window.location.hash = "";
+                window.location.hash = hash;
+            }, 300);
+        }
+    });
+        </script>  
+
+
+</body>
+</html>
