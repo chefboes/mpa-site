@@ -618,7 +618,7 @@ a:hover p, a:active p, .section-items-start p a:hover, .section-items-start p a:
     bottom: 3%;
     right: 5%;
     overflow: hidden;
-    min-height:60%;
+    min-height:75%;
     /*--background: rgba(0, 0, 0, 0.2);--*/
 }
 
@@ -681,7 +681,7 @@ a:hover p, a:active p, .section-items-start p a:hover, .section-items-start p a:
       left: 0;
       bottom: 0;
       width: 100%;
-      min-height: 60%;
+      min-height: 70%;
   } 
     .banner {
         height: 120vw;}
