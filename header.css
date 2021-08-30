@@ -126,7 +126,7 @@
   }
   
   .site-header .menu-btn:checked ~ .menu {
-    max-height: 400px;
+    max-height: 100%;
   }
   
   .site-header .menu-btn:checked ~ .menu-icon .navicon {
@@ -146,9 +146,9 @@
     top: 0;
   }
  
-  /* 48em = 968px */
+  /* 52.5rem = 840px */
   
-  @media (min-width: 48rem) {
+  @media (min-width: 52.5rem) {
     .site-header {
       display: flex;
       justify-content: space-between;
