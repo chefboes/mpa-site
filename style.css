@@ -471,7 +471,7 @@ a:hover p, a:active p, .section-items-start p a:hover, .section-items-start p a:
   text-align: center;
 }
 .flexchild-50 li {
-  font-size: .9rem;
+  font-size: 1rem;
 }
 .--lefty {
   text-align: left;
@@ -691,6 +691,10 @@ a:hover p, a:active p, .section-items-start p a:hover, .section-items-start p a:
    
     p {
       font-size: .9rem;}
+
+    .flexchild-50 li {
+        font-size: .9rem;
+      }
     
     .panel {
         padding: 0 1.3rem;
