@@ -152,7 +152,7 @@ p {
 }
 
 /* The Close Button */
-.close, .closeTwo, .closeThree, .closeFour {
+.close, .closeTwo, .closeThree, .closeFour, .closeFive {
   color: #aaa;
   float: right;
   margin-right: 1rem;
