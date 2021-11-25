@@ -166,15 +166,15 @@
       padding-right: 1.7vw;
       color: var(--grey);
     }
-    .site-header li:nth-child(2) a {
+    .site-header li:nth-child(1) a {
       padding-right: 3vw;
     }
-    .site-header li:nth-child(2) a::after {
+    .site-header li:nth-child(1) a::after {
       content:"|";
       padding-left: 4vw;
       color: var(--beige)
     }
-    .site-header .current, .current {
+    .site-header .current {
       color: var(--white);
     }
     .site-header .menu {

@@ -188,9 +188,10 @@ p {
   line-height: 1.2rem;
   letter-spacing: 0;
 }
+/*--
 .--kleingedruckt, p:last-child {
   break-after: column;
-}
+} --*/
 .--kleingedruckt h3 {
   font-size: 1.2rem;
   font-family: 'TT Norms Pro Medium';
@@ -627,7 +628,7 @@ a:hover p, a:active p, .section-items-start p a:hover, .section-items-start p a:
     left: 0;
     bottom: 0;  
     width: 1000%;
-    animation: slide 14s ease-in-out infinite;
+    animation: slide 18s ease-in-out infinite;
     }
 
 .column-slides {
