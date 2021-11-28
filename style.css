@@ -252,7 +252,7 @@ p {
   font-size: 1.1rem;
   margin: .5em 0 1em 0;
 }
-#footer .--foot a:nth-child(5) p, #footer .--foot a:nth-child(6) p {
+#footer .--foot a:nth-child(6) p {
   color:var(--beige);
 }
 #footer .--foot a:hover p {
