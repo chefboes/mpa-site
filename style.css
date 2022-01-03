@@ -501,7 +501,7 @@ a:hover p, a:active p, .section-items-start p a:hover, .section-items-start p a:
   border-left: 1px solid var(--white);
   padding-left: 1em;
 }
-@media screen and (max-width: 855px) {
+@media screen and (max-width: 809px) {
   .--foot {
     text-align: center;
   }
@@ -634,9 +634,9 @@ a:hover p, a:active p, .section-items-start p a:hover, .section-items-start p a:
 .column-slides {
   position: static;
   color: #fff;
-  width: 25%;
+  width: 20%;
   display:inline-block;
-  padding-right:15.5%;
+  padding-right:10.5%;
   box-sizing: border-box; 
 }
 
@@ -644,12 +644,14 @@ a:hover p, a:active p, .section-items-start p a:hover, .section-items-start p a:
 
 @keyframes slide {
   0% {left: 0}
-  15% {left: 0}
-  33.3% {left: -250%}
-  48.3% {left: -250%}
-  66.6% {left: -500%}
-  81.6% {left: -500%}
-  100% {left: -750%}
+  10% {left: 0}
+  20% {left: -200%}
+  35% {left: -200%}
+  45% {left: -400%}
+  60% {left: -400%}
+  75% {left: -600%}
+  90% {left: -600%}
+  100% {left: -800%}
 }
 
 /* Phone------------------------*/ 

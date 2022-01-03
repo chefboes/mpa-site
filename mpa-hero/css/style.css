@@ -1,0 +1,146 @@
+/* allgemein------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  min-height: 100%;
+}
+body {
+  min-width: 320px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+/* variables------------------------------------------*/
+:root {
+  --overlay: rgba(7, 20, 65, 0.45);
+  --header: rgba(130, 173, 203, 1);
+  --hblau: #82ADCB;
+  --white: #ffffff;
+}
+/* eigenschaften------------------------------------------*/
+.container-11 {
+  margin: 0 auto;
+  width: min(90%,68.75rem);
+}
+.--flexy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* header------------------------------------------*/
+.site-header {
+  width: 100%;
+  background-color: var(--header);
+  position: fixed;
+  z-index: 1;
+}
+.logobox {
+  width: clamp(220px, 30vw, 460px);
+  margin: .8rem 0;
+}
+.logo { 
+  color: var(--white);
+  width: 100%;
+}
+.menubox {
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--white);
+}
+.menubox:hover {
+  opacity: 0.5;
+}
+/* hero------------------------------------------*/
+
+.hero-background h2 {
+  font-size: .9rem;
+  color: var(--white);
+}
+.hero-background {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+  height: 46vh;
+  background-image: 
+  linear-gradient(var(--overlay),var(--overlay)),
+  url(../img/hero_4022_sw.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.dummy {
+  width:100%;
+  min-height: 46vh;
+  display:block;
+}
+.claim {
+  position: absolute;
+  top: 10rem;
+  left: 1.2rem;
+}
+.claim  h2 {
+  font-weight:200;
+}
+/* Sliding Section------------------------*/
+.msg-container {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .2);
+  width: 55vw;
+  position:absolute;
+  bottom: 5%;
+  right: 7%;
+  overflow-x: hidden;
+}
+#slides {
+  display: inline-flex;
+  transition: 0.5s;
+}
+.msg-container h1 {
+  font-size: clamp(1.3rem, 3.1vw, 2.4rem);
+  font-weight:400;
+  margin: 1rem;
+  line-height: 1.2em;
+}
+.msg-container h2 {
+  margin: 1rem;
+}
+.column-slides {
+  width: 55vw;    
+}
+@media screen and (max-width: 600px) {
+  .msg-container {
+      position: static;
+      width: 100%;
+  }
+  .column-slides {
+      width: 100vw;
+  }
+}
+
+
+/* Next section------------------------*/  
+.second {
+  margin: 2rem;
+  text-align: center;
+}
+button {
+  font-size: 1.1rem;
+  padding: .5em 1em;
+  border: none;
+  -moz-outline-radius: 25px;
+  outline: 2px solid red;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .0);
+  display: inline-block;
+  margin: .8rem;
+}
+button:hover {
+  background-color: black;
+  outline: 2px solid black;
+  color: white;
+  transition: 0.3s;
+}

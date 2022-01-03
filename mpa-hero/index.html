@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>MPA | HERO</title>
+</head>
+<body>
+<!--Navbar------------------------------------------------------>    
+    <header class="site-header">    
+        <div class="container-11 --flexy">
+            <figure class="logobox">
+                <img src="img/logo-mpa-590px.svg" alt="Logo" class="logo">
+            </figure>
+            <div class="menubox">
+                <i class='bx bx-menu'></i>   
+            </div>
+        </div>
+    </header>
+<!--hero------------------------------------------------------>  
+        <div class="hero-background">  
+            <div class="dummy"></div>         
+            <div class="claim">
+            <h2>| Radiologie <br>
+                | Strahlentherapie <br>
+                | Consulting</h2>
+            </div>
+            <div class="msg-container">
+                <div id="slides">
+                    <div class="column-slides">
+                        <h1>Überwachung und Dosis&shy;optimierung von Computer&shy;tomographen, Angiographie- und Interventions&shy;anlagen</h1>
+                    </div>
+                    <div class="column-slides">
+                        <h1>Medizin&shy;physikexperten mit Fachkunde im Bereich Röntgen&shy;diagnostik & Strahlen&shy;therapie</h1>
+                    </div><div class="column-slides">
+                        <h1>Consulting, Radiologische- und radio&shy;onkologische IT, Großgeräte, Ausschreibungen</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+<!--hero neu------------------------------------------------------> 
+
+<!--Buttons zur Bedienung------------------------------------------------------> 
+<div class="second">
+    <button id="one">onclick1</button>
+    <button id="two">onclick2</button>
+    <button id="three">onclick3</button>
+</div>
+
+
+<!---Scripting------------------------------------------------------>
+    <script>
+        var slider = document.getElementById('slides');
+        var one = document.getElementById('one');
+        var two = document.getElementById('two');
+        var three = document.getElementById('three');
+ 
+        one.onclick = function(){
+            slider.style.transform = 'translateX(0)';
+        }
+        two.onclick = function(){
+            slider.style.transform = 'translateX(-33.333%)';
+        }
+        three.onclick = function(){
+            slider.style.transform = 'translateX(-66.666%)';
+        }
+ 
+    </script>   
+</body>
+</html>
